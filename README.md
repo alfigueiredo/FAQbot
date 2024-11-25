@@ -144,6 +144,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 Se você tiver qualquer dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
 - **E-mail:** leonsolon@gmail.com
+- **Site** https://letsdata.ai
 - **LinkedIn:** [Seu Perfil](https://www.linkedin.com/in/leonsolon)
 
 ---
