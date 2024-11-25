@@ -19,6 +19,8 @@ from transformers import AutoTokenizer, AutoModel
 import os
 from dotenv import load_dotenv
 from create_embeddings import get_embeddings
+#from rag import generate_response_llm
+from rag import generate_response_openai
 
 # Configurar ChromaDB
 # Especifique o diretório de persistência
@@ -49,12 +51,6 @@ async def iniciar_bot(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     )
 
 
-def generate_response(query):
-    inputs = tokenizer(query, return_tensors="pt")
-    generated_ids = model.generate(**inputs)
-    response = tokenizer.decode(generated_ids[0], skip_special_tokens=True)
-    return response
-
 # Função para responder mensagens
 async def tratar_mensagem(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_message = update.message.text
@@ -67,15 +63,20 @@ async def tratar_mensagem(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if results['metadatas'][0]:
         resposta = results['metadatas'][0][0]['resposta']
+        similaridade = results['distances'][0][0]
+        print(f"Similaridade: {similaridade}")
     else:
         resposta = "Desculpe, não encontrei uma resposta para sua pergunta."
 
     # Opcional: Gerar uma resposta adicional com RAG
-    # resposta_rag = generate_response(user_message)
+    # resposta_rag = generate_response_llm(user_message)
     # resposta_final = f"{resposta}\n\n{resposta_rag}"
     
+    #resposta_openai = generate_response_openai(user_message)
+
     # Para simplificar, vamos usar apenas a resposta do ChromaDB
     await update.message.reply_text(resposta)
+    #await update.message.reply_text(resposta_openai)
 
 def main():
     load_dotenv()

@@ -4,3 +4,5 @@ torch
 python-telegram-bot
 ollama
 python-dotenv
+openai
+langchain-openai

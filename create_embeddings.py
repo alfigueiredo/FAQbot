@@ -19,6 +19,9 @@ with open('data/faq.json', 'r', encoding='utf-8') as f:
 tokenizer = AutoTokenizer.from_pretrained("neuralmind/bert-base-portuguese-cased")
 model = AutoModel.from_pretrained("neuralmind/bert-base-portuguese-cased")
 
+# Função para obter embeddings
+# Esta função recebe um texto, tokeniza-o e passa pelo modelo BERT para obter os embeddings.
+# Os embeddings são a média dos estados ocultos da última camada do modelo.
 def get_embeddings(text):
     inputs = tokenizer(text, return_tensors='pt', truncation=True, padding=True)
     with torch.no_grad():
