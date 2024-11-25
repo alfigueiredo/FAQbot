@@ -1,0 +1,82 @@
+[
+    {
+        "pergunta": "Quais são os livros mais vendidos?",
+        "resposta": "Os livros mais vendidos atualmente são 'A Culpa é das Estrelas' de John Green, '1984' de George Orwell e 'Sapiens' de Yuval Noah Harari."
+    },
+    {
+        "pergunta": "Como faço para rastrear meu pedido?",
+        "resposta": "Você pode rastrear seu pedido acessando sua conta em nosso site, indo até a seção 'Meus Pedidos' e clicando no número de rastreamento fornecido."
+    },
+    {
+        "pergunta": "Quais são as formas de pagamento aceitas?",
+        "resposta": "Aceitamos pagamentos via cartão de crédito, boleto bancário, PayPal e transferência bancária. Também oferecemos opções de parcelamento sem juros para compras acima de R$200."
+    },
+    {
+        "pergunta": "Quanto tempo leva para o pedido ser entregue?",
+        "resposta": "O prazo de entrega varia de acordo com a sua localização. Em média, pedidos para capitais são entregues em 3 a 5 dias úteis, enquanto para regiões mais distantes, o prazo pode ser de 7 a 10 dias úteis."
+    },
+    {
+        "pergunta": "Vocês fazem entregas internacionais?",
+        "resposta": "Atualmente, entregamos apenas para o território nacional. Estamos trabalhando para expandir nossos serviços de entrega no futuro."
+    },
+    {
+        "pergunta": "Posso cancelar meu pedido?",
+        "resposta": "Sim, você pode cancelar seu pedido dentro de 24 horas após a confirmação da compra. Para isso, entre em contato com nosso suporte ao cliente pelo e-mail suporte@letsread.com.br."
+    },
+    {
+        "pergunta": "Como faço para devolver um livro?",
+        "resposta": "Para devolver um livro, entre em contato com nosso suporte ao cliente em até 7 dias após o recebimento do produto. O livro deve estar em perfeito estado e na embalagem original."
+    },
+    {
+        "pergunta": "Vocês oferecem descontos para compras em grande quantidade?",
+        "resposta": "Sim, oferecemos descontos especiais para compras em grande quantidade. Entre em contato com nosso departamento de vendas pelo e-mail vendas@letsread.com.br para mais informações."
+    },
+    {
+        "pergunta": "Como faço para me cadastrar na newsletter?",
+        "resposta": "Para se cadastrar em nossa newsletter, acesse nosso site e insira seu e-mail no campo destinado à newsletter, localizado no rodapé da página."
+    },
+    {
+        "pergunta": "Vocês têm programa de fidelidade?",
+        "resposta": "Sim, temos um programa de fidelidade onde você acumula pontos a cada compra que podem ser trocados por descontos e brindes. Para participar, basta criar uma conta em nosso site."
+    },
+    {
+        "pergunta": "Como entro em contato com o suporte ao cliente?",
+        "resposta": "Você pode entrar em contato com nosso suporte ao cliente através do e-mail suporte@letsread.com.br ou pelo telefone (11) 4002-8922, de segunda a sexta, das 9h às 18h."
+    },
+    {
+        "pergunta": "Vocês organizam eventos ou lançamentos de livros?",
+        "resposta": "Sim, organizamos eventos e lançamentos de livros regularmente. Fique de olho em nossa página de eventos no site e em nossas redes sociais para não perder nenhuma novidade."
+    },
+    {
+        "pergunta": "Posso solicitar um livro que não está no catálogo?",
+        "resposta": "Claro! Se você está procurando um livro que não está em nosso catálogo, por favor, envie uma solicitação para nosso suporte ao cliente e faremos o possível para atender seu pedido."
+    },
+    {
+        "pergunta": "Vocês oferecem e-books?",
+        "resposta": "Sim, além dos livros físicos, oferecemos uma ampla seleção de e-books que podem ser adquiridos e baixados diretamente do nosso site."
+    },
+    {
+        "pergunta": "Como atualizo meus dados pessoais na conta?",
+        "resposta": "Para atualizar seus dados pessoais, faça login em sua conta no nosso site, vá até a seção 'Minha Conta' e edite as informações desejadas."
+    },
+    {
+        "pergunta": "Os livros são vendidos com garantia?",
+        "resposta": "Sim, todos os livros vendidos pela Let's Read possuem garantia de 30 dias contra defeitos de fabricação. Caso haja algum problema, entre em contato com nosso suporte ao cliente."
+    },
+    {
+        "pergunta": "Como funcionam as promoções e cupons de desconto?",
+        "resposta": "Nossas promoções são divulgadas em nosso site e nas redes sociais. Para utilizar um cupom de desconto, insira o código no campo destinado durante o processo de checkout."
+    },
+    {
+        "pergunta": "Vocês têm uma loja física?",
+        "resposta": "Atualmente, operamos exclusivamente online. No entanto, estamos planejando abrir lojas físicas em várias cidades no futuro próximo."
+    },
+    {
+        "pergunta": "Como faço para deixar uma avaliação de um livro que comprei?",
+        "resposta": "Após a compra, você receberá um e-mail com um link para deixar sua avaliação. Você também pode acessar a página do livro em nosso site e deixar sua opinião na seção de avaliações."
+    },
+    {
+        "pergunta": "Vocês oferecem serviços de encadernação personalizada?",
+        "resposta": "Sim, oferecemos serviços de encadernação personalizada para pedidos especiais. Entre em contato com nosso suporte ao cliente para mais detalhes e orçamentos."
+    }
+]

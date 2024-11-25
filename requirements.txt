@@ -1,0 +1,6 @@
+transformers
+chromadb
+torch 
+python-telegram-bot
+ollama
+python-dotenv
